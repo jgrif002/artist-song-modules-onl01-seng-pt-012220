@@ -33,4 +33,8 @@ class Song
   def to_param
     name.downcase.gsub(' ', '-')
   end
+  
+  extend self.count 
+  
+  extend self.clear 
 end
