@@ -22,5 +22,5 @@ class Song
     name.downcase.gsub(' ', '-')
   end
   
-  extend Memorable::ClassMethods, findable 
+  extend Memorable::ClassMethods, Findable 
 end 
