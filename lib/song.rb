@@ -36,5 +36,5 @@ class Song
   
   extend self.count 
   
-  extend self.clear 
+  extend self.reset_all
 end
