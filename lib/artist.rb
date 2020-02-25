@@ -32,5 +32,7 @@ class Artist
     name.downcase.gsub(' ', '-')
   end
   
-  extend 
+  extend self.count 
+  
+  extend self.reset_all
 end
