@@ -32,7 +32,6 @@ class Artist
     name.downcase.gsub(' ', '-')
   end
   
-  extend count 
+  extend Memorable::ClassMethods
   
-  extend reset_all
 end
