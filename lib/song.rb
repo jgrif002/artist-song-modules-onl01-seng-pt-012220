@@ -23,4 +23,5 @@ class Song
   end
   
   extend Memorable::ClassMethods, Findable 
+  include Paramable 
 end 
