@@ -26,7 +26,5 @@ class Song
     name.downcase.gsub(' ', '-')
   end
   
-  extend count 
-  
-  extend reset_all
-end
+  extend Memorable::ClassMethods
+end 
